@@ -1,10 +1,10 @@
-/* .header {
+.header {
     width: 100%;
     position: fixed;
     top: 0;
     left: 0;
     z-index: var(--z-fixed); 
-    background-color: var(--contauner-color);
+    background-color: var(--container-color); /* Corrected typo */
 }
 
 .nav {
@@ -12,12 +12,13 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    columns: 1rem;    
+    padding: 1rem;
 }
 
-.nav__logo{
+.nav__logo {
     color: var(--title-color);
     font-weight: var(--font-medium);
+    
 }
 
 .nav__toggle {
@@ -28,4 +29,20 @@
 .nav__list {
     display: flex;
     column-gap: 2rem;
-} */
+    list-style: none; 
+    padding: 0; 
+    margin: 0; 
+}
+
+.nav__item {
+    list-style: none; 
+}
+
+.nav__link {
+    text-decoration: none; 
+    color: var(--title-color);
+}
+
+.nav__icon {
+    margin-right: 0.5rem; 
+}
