@@ -3,8 +3,8 @@
     position: fixed;
     top: 0;
     left: 0;
-    z-index: var(--z-fixed); 
-    background-color: var(--container-color); /* Corrected typo */
+    z-index: var(--z-fixed);
+    background-color: var(--container-color);
 }
 
 .nav {
@@ -18,31 +18,30 @@
 .nav__logo {
     color: var(--title-color);
     font-weight: var(--font-medium);
-    
 }
 
-.nav__toggle {
-    color: var(--title-color);
-    font-weight: var(--font-medium);
+.nav__menu {
+    display: flex;
+    column-gap: 2rem;
 }
 
 .nav__list {
     display: flex;
     column-gap: 2rem;
-    list-style: none; 
-    padding: 0; 
-    margin: 0; 
+    list-style: none;
+    padding: 0;
+    margin: 0;
 }
 
 .nav__item {
-    list-style: none; 
+    list-style: none;
 }
 
 .nav__link {
-    text-decoration: none; 
+    text-decoration: none;
     color: var(--title-color);
 }
 
 .nav__icon {
-    margin-right: 0.5rem; 
+    margin-right: 0.5rem;
 }
