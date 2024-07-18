@@ -1,6 +1,6 @@
 import React from "react";
 import "./about.css";
-import AboutImg from "../../assets/profile.jpg";
+import AboutImg from "../../assets/profile2.jpg";
 import Info from "./Info";
 import Resume from "../../assets/Resume.pdf"
 
@@ -19,7 +19,7 @@ const About = () => {
             Frontend developer, I create web pages with UI / UX user interface
           </p>
 
-          <a download="" href={Resume} className="button button--flex">Download Resume</a>
+          <a download="" href={Resume} className="button button--flex">Download Resume(TH)</a>
         </div>
 
       </div>
